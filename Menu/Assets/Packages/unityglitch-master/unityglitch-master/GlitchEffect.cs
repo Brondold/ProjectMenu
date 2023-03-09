@@ -8,12 +8,12 @@ to copy, distribute, display, and perform the work
 to make derivative works
 to make commercial use of the work
 */
-
+using Cinemachine;
 using UnityEngine;
 
 [ExecuteInEditMode]
 [AddComponentMenu("Image Effects/GlitchEffect")]
-[RequireComponent(typeof(Camera))]
+[RequireComponent(typeof(CinemachineVirtualCamera))]
 public class GlitchEffect : MonoBehaviour
 {
 	public Texture2D displacementMap;
